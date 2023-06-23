@@ -1,0 +1,72 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+
+* {
+    font-family: 'Geologica', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content:flex-start;
+    background-color:white;
+    font-family: 'Rock 3D', cursive;  
+    color: rgb(179, 109, 52);
+    
+   }
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+header img { width: 150px;
+    height: 150px;
+}
+
+.destacados img { width: 150px;
+    height: 150px;
+}
+
+.Ofertas img { width: 150px;
+    height: 150px;
+}
+
+i { font-size: 25px;
+    font-weight: bold;
+}
+
+
+.box {
+    display: flex;
+    justify-content:flex-start;
+    width: 500px;
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.destacados {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.Ofertas {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+
+ 
+.enlaceOcultable {
+    display: none;
+}
+
