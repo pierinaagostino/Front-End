@@ -28,6 +28,20 @@ header img { width: 150px;
     height: 150px;
 }
 
+.search-box {
+    float: right;
+   
+}
+
+
+		
+.search-box input[type=text] {
+    height: 26px;
+    font-size: 17px;
+    width: 200px;
+    margin-top: 14px;
+}
+
 .destacados img { width: 150px;
     height: 150px;
 }
@@ -64,8 +78,80 @@ i { font-size: 25px;
     gap: 75px;
 }
 
+h3 {
+    font-size: 25px;
+    background-color:rgb(216, 207, 168);
+    display: flex;
+    justify-content:center;
+    color:white
+  }
 
- 
+
+footer{
+    font-size: 10px;
+    background-color: #fff;
+    color: var(--second-c);
+  }
+  footer ul{
+    padding:0;
+  }
+  footer li{
+    list-style: none;
+  }
+  .wrap-footer{
+    display: grid;
+    grid-template-columns: 30% 15% 15% 20%;
+    column-gap: 5%;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  .logo-element_footer{
+    display: flex;
+    margin: 2rem 0;
+  }
+  .logo-element_footer img{
+    max-height: 75px;
+  }
+  .element-footer h5{
+    margin: 1rem 0;
+  }
+  .text-element-footer li{
+    line-height: 2;
+  }
+  .link-elements-footer li a{
+    color:rgb(189, 170, 86);
+  }
+  .rrss-element-footer ul{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .rrss-element-footer img{
+    width: 35px;
+  }
+  .rrss-element-footer li{
+    margin-right: 1rem;
+  }
+  .footer-creds{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    color: #576171;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .legal-creds ul{
+    display: flex;
+    flex-flow: row;
+  }
+  .legal-creds ul li{
+    padding-right: 1rem;
+  }
+  .legal-creds ul a{
+    color: #576171;
+  } 
+
+
 .enlaceOcultable {
     display: none;
 }
