@@ -22,6 +22,30 @@ header nav ul{
     display: flex;
     flex-direction: row;
     gap: 75px;
+    }
+   
+nav a {
+    text-decoration: none;
+    color:rgb(179, 109, 52);
+}
+.menu li a:hover {
+color:goldenrod;
+transition: all .3s;
+}
+
+.submenu {
+  position:absolute;
+  display: none;
+  background-color: blanchedalmond;
+  padding: 0px;
+}
+
+.submenu li a {
+  display: block;
+  }
+
+.menu li:hover .submenu {
+  display: block;
 }
 
 header img { width: 150px;
