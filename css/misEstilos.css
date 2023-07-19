@@ -11,7 +11,6 @@ header {
     flex-direction: row;
     align-items:flex-end;
     justify-content:flex-start;
-    background-color:white;
     font-family: 'Rock 3D', cursive;  
     color: rgb(179, 109, 52);
     
@@ -29,14 +28,14 @@ nav a {
     color:rgb(179, 109, 52);
 }
 .menu li a:hover {
-color:goldenrod;
+color:rgb(201, 173, 102);
 transition: all .3s;
 }
 
 .submenu {
   position:absolute;
   display: none;
-  background-color: blanchedalmond;
+  background-color:beige;
   padding: 0px;
 }
 
@@ -48,16 +47,19 @@ transition: all .3s;
   display: block;
 }
 
+
 header img { width: 150px;
     height: 150px;
 }
 
-.search-box {
-    float: right;
-   
+.imgmain {
+justify-content: center;
 }
 
-
+.search-box {
+    float:left;  
+    padding-left: 35px;
+}
 		
 .search-box input[type=text] {
     height: 26px;
@@ -65,6 +67,27 @@ header img { width: 150px;
     width: 200px;
     margin-top: 14px;
 }
+
+.segundalinea {
+  display:flex;
+  float:left;
+  align-items: baseline;
+  padding-left: 30px;
+  }
+
+
+
+.promo {
+  font-size: 16px;
+  background-color:beige;
+  padding: 5px;
+  color:rgb(1, 15, 1);
+  animation-name: bounce;
+  animation-duration: 3s;
+}
+
+
+
 
 .destacados img { width: 150px;
     height: 150px;
@@ -83,10 +106,21 @@ i { font-size: 25px;
     display: flex;
     justify-content:flex-start;
     width: 500px;
-    height: 500px;
-    padding-left: 50px;
+    height: 560px;
+    padding-left: 20px;
     padding-top: 10px;
 }
+
+.boxofertas {
+  background-color:beige;
+  padding-bottom: 2px;
+}
+
+.boxdestacados {
+  background-color:beige;
+  padding-bottom: 2px;
+}
+
 
 .destacados {
     list-style: none;
@@ -101,6 +135,8 @@ i { font-size: 25px;
     flex-direction: row;
     gap: 75px;
 }
+
+
 
 h3 {
     font-size: 25px;
