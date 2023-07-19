@@ -87,10 +87,8 @@ justify-content: center;
   background-color:beige;
   padding: 5px;
   color:rgb(1, 15, 1);
-  animation-name: flash;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
+  animation-name: bounce;
+  animation-duration: 3s;
 }
 
 
