@@ -13,6 +13,11 @@ header {
     justify-content:flex-start;
     font-family: 'Rock 3D', cursive;  
     color: rgb(179, 109, 52);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #fdfdfd;
     
    }
 
@@ -82,8 +87,10 @@ justify-content: center;
   background-color:beige;
   padding: 5px;
   color:rgb(1, 15, 1);
-  animation-name: bounce;
-  animation-duration: 3s;
+  animation-name: flash;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
 }
 
 
